@@ -16,6 +16,6 @@ ForegroundService - This service is responsible for foreground activity(it fetch
 data:
 MyDbHandler - It is responsible for all the database functions.
 
-We use RecycleView for showing app data.
+We use RecycleView for showing app data and data is refreshed in every 10 seconds.
 
 
