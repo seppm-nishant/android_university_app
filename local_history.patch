@@ -1,0 +1,50 @@
+Index: app/src/main/res/layout/text_row_item.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/text_row_item.xml b/app/src/main/res/layout/text_row_item.xml
+--- a/app/src/main/res/layout/text_row_item.xml	
++++ b/app/src/main/res/layout/text_row_item.xml	(date 1695484932024)
+@@ -5,19 +5,6 @@
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+-    <androidx.recyclerview.widget.RecyclerView
+-            android:layout_width="match_parent"
+-            android:layout_height="wrap_content"
+-            android:id="@+id/recyclerView"
+-            tools:ignore="MissingConstraints"
+-            app:layout_constraintTop_toTopOf="parent"
+-            app:layout_constraintBottom_toBottomOf="parent"
+-            app:layout_constraintStart_toStartOf="parent"
+-            app:layout_constraintEnd_toEndOf="parent"
+-            app:layout_constraintHorizontal_bias="0.0"
+-            app:layout_constraintVertical_bias="0.066"
+-            android:paddingLeft="23dp"
+-    />
+ 
+     <LinearLayout
+             android:id="@+id/linearLayout"
+@@ -26,10 +13,10 @@
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             tools:ignore="ExtraText,MissingConstraints"
+-            app:layout_constraintHorizontal_bias="1.0"
++            app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+-            app:layout_constraintVertical_bias="0.0"
++            app:layout_constraintVertical_bias="1.0"
+             android:orientation="horizontal">
+ 
+ 
+@@ -53,7 +40,7 @@
+                 android:text="@string/textview3"
+                 android:id="@+id/textView3"/>
+         <TextView
+-                android:autoLink="none"
++                android:autol
+                 android:padding="12dp"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
