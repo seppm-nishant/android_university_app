@@ -13,6 +13,9 @@ WebActivity - This loads web view.
 services:
 ForegroundService - This service is responsible for foreground activity(it fetches data from api and save into database when app is not active).
 
+data:
+MyDbHandler - It is responsible for all the database functions.
+
 We use RecycleView for showing app data.
 
 
